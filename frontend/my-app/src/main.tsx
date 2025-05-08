@@ -10,7 +10,7 @@ import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals.ts";
-import "./styles.css";
+import "./App.css";
 
 import App from "./App.tsx";
 import { produtosRoute } from "./pages/Produtos";
