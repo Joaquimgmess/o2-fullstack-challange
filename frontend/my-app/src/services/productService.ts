@@ -92,7 +92,6 @@ export const deleteProductFn = async (id: number): Promise<void> => {
     const response = await fetch(API_ENDPOINTS.products.delete(id), {
       method: "DELETE",
       headers: defaultHeaders,
-      credentials: "include",
     });
     return await response.json();
   } catch (error) {
