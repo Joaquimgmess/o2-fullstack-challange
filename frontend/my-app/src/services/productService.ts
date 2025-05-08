@@ -7,6 +7,7 @@ export interface Product {
   description: string;
   price: number;
   quantity: number;
+  category: string;
 }
 
 export type ProductInput = Omit<Product, "id">;
